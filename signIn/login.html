@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerece</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="login-page">
+      <div class="login-container">
+        <div><h1>sign in</h1></div>
+
+        <form>
+          <div>
+            <div>
+              <input
+                type="email"
+                id="signInEmail"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div><input type="password" /></div>
+          </div>
+          <div class="forget-remember">
+            <div class="remember-me">
+              <div>
+                <input type="checkbox" class="checkbox-label" required />
+              </div>
+              <div><p>Remember Me</p></div>
+            </div>
+            <div>
+              <p><a href="">forget Password</a></p>
+            </div>
+          </div>
+
+          <button type="submit" class="loginBtn" onclick="handleLogin(event)">
+            Login
+          </button>
+        </form>
+        <p class="account">
+          Don't have an account? <a href="../signUp/signUp.html"> Register</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="../signIn/signIn.js"></script>

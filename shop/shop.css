@@ -1,0 +1,46 @@
+.shop-hero{
+width: 100%;
+max-width: 1440px ;
+background-image: url('../shop/img/shopHeroLogo.svg');
+background-repeat: no-repeat;
+height: 306px;
+background-size: cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.homeShop{
+display: flex;
+align-items: baseline;
+justify-content: center;
+gap: 6px;
+
+}
+
+.belowHero{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 99px;
+padding-right: 99px;
+padding-top: 32px;
+padding-bottom: 32px;
+background-color:#F9F1E7;
+}
+
+
+.shop-container{
+display: grid;
+grid-template-columns: repeat(4, minmax(0, 1fr));
+gap: 20px;
+padding-left: 99px;
+padding-right: 99px;
+padding-top: 17px;
+margin-top: 46px;
+}
+
+
+
+

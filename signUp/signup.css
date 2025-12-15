@@ -1,0 +1,51 @@
+body{
+  /* width: 100%; */
+  overflow: hidden;
+}
+
+h1, .account{
+  text-align: center;}
+
+.login-container {
+  width: 40%;
+  margin: auto;
+  margin-top: 10%;
+  border: 1px solid lightgray;
+  padding: 32px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+  input{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}
+
+.TandC{
+  display: flex;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.accept-terms{
+  padding-bottom: 5px;
+}
+
+.checkbox-label{
+  height:20px;
+  width: 20px;
+  cursor: pointer;
+  margin-right: 5px;}
+
+  button{
+  width: 100%;
+  padding: 10px;
+  background-color: burlywood;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+}

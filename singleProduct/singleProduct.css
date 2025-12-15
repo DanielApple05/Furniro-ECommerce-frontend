@@ -1,0 +1,63 @@
+body, html {
+width: 100%;
+/* margin: auto; */
+
+}
+
+.part1{
+
+
+}
+
+
+.asgaard-container{
+display: flex;
+  height: 100vh;
+  gap: 82px;
+  
+
+}
+
+
+
+
+.asgaard-album {
+  display: flex;
+  gap: 32px;
+  width: 100%;
+ 
+}
+
+.small-images-box {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.small-images {
+  width: 76px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.big-image {
+  width: 481px;
+  height: 500px;
+  object-fit: cover;
+}
+
+
+.asgaard-text{
+ 	font-size: 0.75rem;
+
+}
+
+.contact-handle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
