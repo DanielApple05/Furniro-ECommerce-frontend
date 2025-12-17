@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../cart.css" />
+    <link rel="stylesheet" href="../shop/shop.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Cart Page</title>
+  </head>
+  <body>
+    <iframe
+      src="../header/headerConponent.html"
+      frameborder="0"
+      style="width: 100%"
+      height="100px"
+    ></iframe>
+
+    <div class="shop-hero">
+      <div class="flex justify-center">
+        <img src="../productComparison/img/logo.svg" alt="" />
+      </div>
+      <h2 class="text-center">Cart</h2>
+      <div class="homeShop">
+        <a href="../index.html">Home</a>
+        <h6>></h6>
+        <a href="../cartPage/" > Cart</a>
+      </div>
+    </div>
+
+    <div class="px-[100px] py-[71px] w-[100%]">
+      <div class="flex gap-[5%]">
+        <div class="w-[67%]">
+          <div class="px-[142px] py-[14px] bg-[#F9F1E7]">
+            <div class="flex justify-between">
+              <p>Product</p>
+              <p>Price</p>
+              <p>Quantity</p>
+              <p>Subtotal</p>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between  pt-[58px] pr-[25px]">
+            <div class="flex items-center gap-[30px]  ">
+              <img
+                src="../productComparison/img/sofa-asgaard.svg"
+                alt=""
+                class="w-[105px] h-[111px] bg-[#F9F1E7]  rounded"
+              />
+               <p class=" ">Asgaard Sofa</p>
+            </div>
+
+           
+
+            <p>Rs. 250,000.00</p>
+
+            <input type="number" class="w-[33px] border-black" />
+
+            <p>Rs. 250,000.00</p>
+
+            <div>
+              <img src="./delete-icon.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="grid bg-[#F9F1E7] gap-[30px] w-[28%] pb-[84px] pt-[15px]">
+          <h5 class="text-center">Cart Totals</h5>
+          <div class="flex justify-around">
+            <h6>Subtotal</h6>
+            <p>Rs. 250,000.00</p>
+          </div>
+          <div class="flex justify-around">
+            <h6>Total</h6>
+            <p>Rs. 250,000.00</p>
+          </div>
+
+          <button class="large-btn mx-[85px] !py-[14px]">Check Out</button>
+        </div>
+      </div>
+    </div>
+
+     <iframe
+        src="../brandServices/brandServices.html"
+        frameborder="0"
+        style="width: 100%" height="270px"
+      >
+      </iframe>
+
+      <iframe
+        src="../Footer/footer.html"
+        frameborder="0"
+        width="100%;" height="505px"
+      ></iframe>
+  </body>
+
+</html>
