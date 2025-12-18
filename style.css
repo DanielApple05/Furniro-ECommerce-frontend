@@ -124,7 +124,8 @@ border: none;
 
 }
 
-.border-r{
-  /* height: 100%; */
-
+.input-text-box{
+  padding: 20px;
+  padding-right: 300px;
+  border-radius: 10px;
 }

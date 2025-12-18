@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Check Out</title>
   </head>
-  <body>
+  <body class="">
     <iframe
       src="../header/headerConponent.html"
       frameborder="0"
@@ -29,112 +29,137 @@
       </div>
     </div>
 
-    <div  class="flex">
-      <div class="grid gap-[36px] w-[40%] px-[77px] py-[71px]">
-        <h5>Billing Details</h5>
+    <div class="flex pb-[110px] pl-[112px] pr[98px] pt-[5px]">
+      <div class="flex w-[100%] gap-[26px]">
+        <div class="grid gap-[36px] w-[50%] pt-[93px] pl-[62px] pr-[91px] pb-[13px]">
+          <h5>Billing Details</h5>
 
-        <div class="flex gap-[5px] w-[100%]">
+          <div class="flex gap-[5px] ">
+            <div>
+              <p>First Name</p>
+              <input type="text" class="border rounded-lg pt-[25px] mt-[22px]" />
+            </div>
+
+            <div>
+              <p>Last Name</p>
+              <input type="text" class="border rounded-lg pt-[25px] mt-[22px]" />
+            </div>
+          </div>
           <div>
-            <p>First Name</p>
-            <input type="text" class="border rounded-lg" />
+            <p>Company Name (Optional)</p>
+            <input type="text" class="border rounded-lg w-[100%] pt-[25px] mt-[22px]" />
+          </div>
+          <div>
+            <p>Country / Religion</p>
+            <input type="text" class="border rounded-lg w-[100%] pt-[25px] mt-[22px]" />
           </div>
 
           <div>
-            <p>Last Name</p>
-            <input type="text" class="border rounded-lg" />
+            <p>Street address</p>
+            <input type="text" class="border rounded-lg w-[100%] pt-[25px] mt-[22px]" />
+          </div>
+
+          <div>
+            <p>Town / City</p>
+            <input type="text" class="border rounded-lg pt-[25px] mt-[22px] w-[100%]" />
+          </div>
+
+          <div>
+            <p>Province</p>
+            <input type="text" class="border rounded-lg pt-[25px] mt-[22px] w-[100%]" />
+          </div>
+
+          <div>
+            <p>ZIP code</p>
+            <input type="text" class="border rounded-lg pt-[25px] mt-[22px] w-[100%]" />
+          </div>
+
+          <div>
+            <p>Phone</p>
+            <input type="text" class="border rounded-lg pt-[25px] mt-[22px] w-[100%]" />
+          </div>
+
+          <div class="">
+            <p>Email address</p>
+            <input type="text" class="border rounded-lg pt-[25px] mt-[22px] w-[100%] " placeholder="Additional information" />
+          </div>
+
+          <input type="text" class="border rounded-lg pt-[25px] mt-[22px]" />
+        </div>
+
+        <div class=" w-[45%] px-[37px] py-[86px] mt-[63px]">
+          <div>
+            <div class=" space-y-4">
+              <div class="flex justify-between">
+                <h6>Product</h6>
+                <h6>Asgaard Sofa</h6>
+              </div>
+
+              <div class="flex justify-between">
+                <p>Asgaard sofa x 1</p>
+                <p>Rs. 250,000.00</p>
+              </div>
+
+              <div class="flex justify-between">
+                <p>Subtotal</p>
+                <p>Rs. 250,000.00</p>
+              </div>
+              <div class="flex justify-between">
+                <p>Total</p>
+                <h5>Rs. 250,000.00</h5>
+              </div>
+              <hr class="customLine" />
+            </div>
+            <div class="space-y-5">
+              <div class="flex gap-[10px]">
+                <input type="radio" />
+                <p>Direct Bank Transfer</p>
+              </div>
+
+              <p>
+                Make your payment directly into our bank account. Please use
+                your Order ID as the payment reference. Your order will not be
+                shipped until the funds have cleared in our account.
+              </p>
+
+              <div class="flex gap-[10px]">
+                <input type="radio" />
+                <p>Direct Bank Transfer</p>
+              </div>
+
+              <div class="flex gap-[10px]">
+                <input type="radio" />
+                <p>Cash On Delivery</p>
+              </div>
+
+              <p>
+                Your personal data will be used to support your experience
+                throughout this website, to manage access to your account, and
+                for other purposes described in our privacy policy.
+              </p>
+              <div class="flex justify-center">
+                <button class="large-btn  !px-[102px]">
+                  place Order
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-        <div>
-          <p>Company Name (Optional)</p>
-          <input type="text" class="border rounded-lg w-[100%]" />
-        </div>
-        <div>
-          <p>Country / Religion</p>
-          <input type="text" class="border rounded-lg w-[100%]" />
-        </div>
-
-        <div>
-          <p>Street address</p>
-          <input type="text" class="border rounded-lg w-[100%]" />
-        </div>
-
-        <div>
-          <p>Town / City</p>
-          <input type="text" class="border rounded-lg w-[100%]" />
-        </div>
-
-        <div>
-          <p>Province</p>
-          <input type="text" class="border rounded-lg w-[100%]" />
-        </div>
-
-        <div>
-          <p>ZIP code</p>
-          <input type="text" class="border rounded-lg w-[100%]" />
-        </div>
-
-        <div>
-          <p>Phone</p>
-          <input type="text" class="border rounded-lg w-[100%]" />
-        </div>
-
-        <div class="">
-          <p>Email address</p>
-          <input type="text" class="border rounded-lg w-[100%]" />
-        </div>
-
-        <input type="text" class="border rounded-lg " />
-      </div>
-
-      <div class="w-[30%]">
-        <div class="flex">
-          <h6>Product</h6>
-          <h6>Asgaard Sofa</h6>
-        </div>
-
-        <div class="flex">
-          <p>Asgaard sofa x 1</p>
-          <p>Rs. 250,000.00</p>
-        </div>
-
-        <div class="flex">
-          <p>Subtotal</p>
-          <p>Rs. 250,000.00</p>
-        </div>
-        <div class="flex">
-          <p>Total</p>
-          <h5>Rs. 250,000.00</h5>
-        </div>
-        <hr class="customLine" />
-
-        <div class="flex">
-          <input type="radio" />
-           <p>Direct Bank Transfer</p>
-        </div>
-
-        <p>
-          Make your payment directly into our bank account. Please use your
-          Order ID as the payment reference. Your order will not be shipped
-          until the funds have cleared in our account.
-        </p>
-
-        <div  class="flex" >
-          <input type="radio" />
-          <p>Direct Bank Transfer</p>
-        </div>
-
-        <div  class="flex">
-          <input type="radio" />
-          <p>Cash On Delivery</p>
-        </div>
-
-        <p>
-          Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy. 
-        </p>
-
-        <button class="large-btn mx-[85px] !py-[14px]">Check Out</button>
-
       </div>
     </div>
+     <iframe
+        src="../brandServices/brandServices.html"
+        frameborder="0"
+        style="width: 100%" height="270px"
+      >
+      </iframe>
+
+      
+    </main>
+    <iframe
+        src="../Footer/footer.html"
+        frameborder="0"
+        width="100%;" height="505px"
+      ></iframe>
   </body>
 </html>
