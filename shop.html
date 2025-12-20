@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Shop Page</title>
-    <link rel="stylesheet" href="shop/shop.css" />
+    <link rel="stylesheet" href="./shop/shop.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="homePage/home.css" />
+    <link rel="stylesheet" href="./homePage/home.css" />
   </head>
   <body>
     <iframe
       src="./header/headerConponent.html"
       frameborder="0"
-      style="width: 100%" height="100px"
+      style="width: 100%"
+      height="100px"
     ></iframe>
 
     <main>
@@ -21,7 +22,9 @@
         <div>
           <h2 class="text-center">Shop</h2>
           <div class="homeShop">
-            <h6>Home</h6>
+            <h5>
+              <a href="./index.html">Home</a>
+            </h5>
             <p>></p>
             <p>Shop</p>
           </div>
@@ -42,13 +45,14 @@
           <div>
             <img src="./shop/img/bi-view-list.svg" alt="" />
           </div>
+          <hr class="customLine-vert" />
 
           <p>Showing 1-16 of 32 results</p>
         </div>
 
         <div class="flex items-center gap-[21px]">
           <p>Show</p>
-          <input type="button" value="">
+          <input type="button" value="" />
           <p>sort by</p>
           <button class="tert-btn bg-[#f9f9f9]">Default</button>
         </div>
@@ -56,13 +60,17 @@
       <div class="shop-container">
         <div class="grid gap-[40px]">
           <div>
-            <div>
+            <div class="photo-container">
               <img src="./homePage/img/syltherineLogo.svg" alt="" />
+              <img
+                src="./homePage/img/30DiscountLogo.svg"
+                alt=""
+                class="discount-sticker"
+              />
             </div>
-
             <div class="productInfo">
               <h5>Syltherine</h5>
-              <p>Stylish cafe chair</p>
+              <p class="text-[#898989]">Stylish cafe chair</p>
               <div class="productPrice">
                 <h6>Rp 2.500.000</h6>
                 <s>Rp 3.500.000</s>
@@ -70,12 +78,17 @@
             </div>
           </div>
           <div>
-            <div>
+            <div class="photo-container">
               <img src="./homePage/img/syltherineLogo.svg" alt="" />
+              <img
+                src="./homePage/img/30DiscountLogo.svg"
+                alt=""
+                class="discount-sticker"
+              />
             </div>
             <div class="productInfo">
               <h5>Syltherine</h5>
-              <p>Stylish cafe chair</p>
+              <p class="text-[#898989]">Stylish cafe chair</p>
               <div class="productPrice">
                 <h6>Rp 2.500.000</h6>
                 <p><s>Rp 3.500.000</s></p>
@@ -83,12 +96,17 @@
             </div>
           </div>
           <div>
-            <div>
+            <div class="photo-container">
               <img src="./homePage/img/syltherineLogo.svg" alt="" />
+              <img
+                src="./homePage/img/30DiscountLogo.svg"
+                alt=""
+                class="discount-sticker"
+              />
             </div>
             <div class="productInfo">
               <h5>Syltherine</h5>
-              <p>Stylish cafe chair</p>
+              <p class="text-[#898989]">Stylish cafe chair</p>
               <div class="productPrice">
                 <h6>Rp 2.500.000</h6>
                 <p><s>Rp 3.500.000</s></p>
@@ -96,12 +114,17 @@
             </div>
           </div>
           <div>
-            <div>
+            <div class="photo-container">
               <img src="./homePage/img/syltherineLogo.svg" alt="" />
+              <img
+                src="./homePage/img/30DiscountLogo.svg"
+                alt=""
+                class="discount-sticker"
+              />
             </div>
             <div class="productInfo">
               <h5>Syltherine</h5>
-              <p>Stylish cafe chair</p>
+              <p class="text-[#898989]">Stylish cafe chair</p>
               <div class="productPrice">
                 <h6>Rp 2.500.000</h6>
                 <p><s>Rp 3.500.000</s></p>
@@ -116,7 +139,7 @@
 
             <div class="productInfo">
               <h5>Leviosa</h5>
-              <p>Stylish cafe chair</p>
+              <p class="text-[#898989]">Stylish cafe chair</p>
               <div class="productPrice">
                 <h6>Rp 2.500.000</h6>
               </div>
@@ -127,7 +150,7 @@
 
             <div class="productInfo">
               <h5>Leviosa</h5>
-              <p>Stylish cafe chair</p>
+              <p class="text-[#898989]">Stylish cafe chair</p>
               <div class="productPrice">
                 <h6>Rp 2.500.000</h6>
               </div>
@@ -138,7 +161,7 @@
 
             <div class="productInfo">
               <h5>Leviosa</h5>
-              <p>Stylish cafe chair</p>
+              <p class="text-[#898989]">Stylish cafe chair</p>
               <div class="productPrice">
                 <h6>Rp 2.500.000</h6>
               </div>
@@ -149,7 +172,7 @@
 
             <div class="productInfo">
               <h5>Leviosa</h5>
-              <p>Stylish cafe chair</p>
+              <p class="text-[#898989]">Stylish cafe chair</p>
               <div class="productPrice">
                 <h6>Rp 2.500.000</h6>
               </div>
@@ -158,10 +181,17 @@
         </div>
         <div class="grid gap-[40px]">
           <div>
-            <img src="/homePage/img/lolitoLogo.svg" alt="" />
+            <div class="photo-container">
+              <img src="/homePage/img/lolitoLogo.svg" alt="" />
+              <img
+                src="./homePage/img/50Discount.svg"
+                alt=""
+                class="discount-sticker"
+              />
+            </div>
             <div class="productInfo">
               <h5>Lolito</h5>
-              <p>Luxury big sofa</p>
+              <p class="text-[#898989]">Luxury big sofa</p>
               <div class="productPrice">
                 <h6>Rp 7.000.000</h6>
                 <p><s>Rp 14.000.000</s></p>
@@ -169,10 +199,17 @@
             </div>
           </div>
           <div>
-            <img src="/homePage/img/lolitoLogo.svg" alt="" />
+            <div class="photo-container">
+              <img src="/homePage/img/lolitoLogo.svg" alt="" />
+              <img
+                src="./homePage/img/50Discount.svg"
+                alt=""
+                class="discount-sticker"
+              />
+            </div>
             <div class="productInfo">
               <h5>Lolito</h5>
-              <p>Luxury big sofa</p>
+              <p class="text-[#898989]">Luxury big sofa</p>
               <div class="productPrice">
                 <h6>Rp 7.000.000</h6>
                 <p><s>Rp 14.000.000</s></p>
@@ -180,10 +217,17 @@
             </div>
           </div>
           <div>
-            <img src="/homePage/img/lolitoLogo.svg" alt="" />
+            <div class="photo-container">
+              <img src="/homePage/img/lolitoLogo.svg" alt="" />
+              <img
+                src="./homePage/img/50Discount.svg"
+                alt=""
+                class="discount-sticker"
+              />
+            </div>
             <div class="productInfo">
               <h5>Lolito</h5>
-              <p>Luxury big sofa</p>
+              <p class="text-[#898989]">Luxury big sofa</p>
               <div class="productPrice">
                 <h6>Rp 7.000.000</h6>
                 <p><s>Rp 14.000.000</s></p>
@@ -191,10 +235,17 @@
             </div>
           </div>
           <div>
-            <img src="/homePage/img/lolitoLogo.svg" alt="" />
+            <div class="photo-container">
+              <img src="/homePage/img/lolitoLogo.svg" alt="" />
+              <img
+                src="./homePage/img/50Discount.svg"
+                alt=""
+                class="discount-sticker"
+              />
+            </div>
             <div class="productInfo">
               <h5>Lolito</h5>
-              <p>Luxury big sofa</p>
+              <p class="text-[#898989]">Luxury big sofa</p>
               <div class="productPrice">
                 <h6>Rp 7.000.000</h6>
                 <s>Rp 14.000.000</s>
@@ -204,40 +255,69 @@
         </div>
         <div class="grid gap-[40px]">
           <div>
-            <img src="/homePage/img/respira.Logo.svg" alt="" />
+            <div class="photo-container">
+              <img src="/homePage/img/respira.Logo.svg" alt="" />
+              <img
+                src="./homePage/img/newproductsticker.svg"
+                alt=""
+                class="discount-sticker"
+              />
+            </div>
             <div class="productInfo">
               <h5>Respira</h5>
-              <p>Outdoor bar table and stool</p>
+              <p class="text-[#898989]">Outdoor bar table and stool</p>
               <div class="productPrice">
                 <h6>Rp 500.000</h6>
               </div>
             </div>
           </div>
           <div>
-            <img src="/homePage/img/respira.Logo.svg" alt="" />
+            <div class="photo-container">
+              <img src="/homePage/img/respira.Logo.svg" alt="" />
+              <img
+                src="./homePage/img/newproductsticker.svg"
+                alt=""
+                class="discount-sticker"
+              />
+            </div>
             <div class="productInfo">
               <h5>Respira</h5>
-              <p>Outdoor bar table and stool</p>
+              <p class="text-[#898989]">Outdoor bar table and stool</p>
               <div class="productPrice">
                 <h6>Rp 500.000</h6>
               </div>
             </div>
           </div>
           <div>
-            <img src="/homePage/img/respira.Logo.svg" alt="" />
+            <div class="photo-container">
+              <img src="/homePage/img/respira.Logo.svg" alt="" />
+
+              <img
+                src="./homePage/img/newproductsticker.svg"
+                alt=""
+                class="discount-sticker"
+              />
+            </div>
             <div class="productInfo">
               <h5>Respira</h5>
-              <p>Outdoor bar table and stool</p>
+              <p class="text-[#898989]">Outdoor bar table and stool</p>
               <div class="productPrice">
                 <h6>Rp 500.000</h6>
               </div>
             </div>
           </div>
           <div>
-            <img src="/homePage/img/respira.Logo.svg" alt="" />
+            <div class="photo-container">
+              <img src="/homePage/img/respira.Logo.svg" alt="" />
+              <img
+                src="./homePage/img/newproductsticker.svg"
+                alt=""
+                class="discount-sticker"
+              />
+            </div>
             <div class="productInfo">
               <h5>Respira</h5>
-              <p>Outdoor bar table and stool</p>
+              <p class="text-[#898989]">Outdoor bar table and stool</p>
               <div class="productPrice">
                 <h6>Rp 500.000</h6>
               </div>
@@ -248,7 +328,7 @@
       <div
         class="justify-center flex items-center gap-[38px] mt-[40px] mb-[85px] pt-[30px]"
       >
-        <button class="number-btn bg-[#B88E2F]">1</button>
+        <button class="number-btn hover:bg-[#B88E2F]">1</button>
         <button class="number-btn">2</button>
         <button class="number-btn">3</button>
         <button class="number-btn">next</button>
@@ -257,16 +337,16 @@
       <iframe
         src="../brandServices/brandServices.html"
         frameborder="0"
-        style="width: 100%" height="270px"
+        style="width: 100%"
+        height="270px"
       >
       </iframe>
-
-      
     </main>
     <iframe
-        src="../Footer/footer.html"
-        frameborder="0"
-        width="100%;" height="505px"
-      ></iframe>
+      src="../Footer/footer.html"
+      frameborder="0"
+      width="100%;"
+      height="505px"
+    ></iframe>
   </body>
 </html>

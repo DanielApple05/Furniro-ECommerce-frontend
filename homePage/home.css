@@ -1,7 +1,6 @@
 .home-hero {
   width: 100%;
-  /* height: 100vh; */
-  /* overflow: hidden; */
+  
   background-image: url('img/heroBackground.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -24,10 +23,7 @@
 }
 
 
-.buyNowBtn {
-  padding: 25px 72px;
-  font-weight: 700;
-}
+
 
 .part2 {
   
@@ -48,16 +44,17 @@
   
   display: grid;
   justify-items: center;
-  /* align-items: center; */
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
 }
 
 .part3{
-display: grid;
-justify-items: center;
+  justify-items: center;
 margin-top: 57px;
+padding-bottom: 69px;
+width: 100%;
 }
+
 
 
 .product {
@@ -73,7 +70,7 @@ align-items: center;
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-top: 8px;
+  padding-top: 8px;
 }
 
  s{
@@ -81,10 +78,43 @@ align-items: center;
 }
 
 .productInfo{
-  display: flex;
-  flex-direction: column;
-  padding-left: 14px;
-  padding-top: 14px;
-  padding-bottom: 30px;
+  display: grid;
   background-color: rgb(238, 247, 250);
 }
+
+
+
+
+
+
+.leviosa{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  transition: transform 0.4s ease;
+}
+
+.photo-container{
+width: 250px;
+height: 200px;
+overflow: hidden;
+}
+
+.photo-container :hover{
+  transform: scale(1.1);
+  background-color:  #fff3e3 ;
+  cursor: pointer;
+  box-shadow: #9ca3af;
+}
+
+
+
+
+.discount-sticker {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  
+}
+
