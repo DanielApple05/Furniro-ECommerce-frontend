@@ -11,38 +11,38 @@
     <title>Home Page</title>
   </head>
 
-  <body>
+  <body class="w-[1140px]">
     <script src="furniro.js" defer></script>
     <iframe
       src="./header/headerConponent.html"
       frameborder="0"
-      style="width: 100%"
+      style="width: 100%; max-width: 1440px; margin: auto; height: 100px; position: fixed; top: 0; z-index: 1000; background-color: #ffffff;"
     ></iframe>
-    <main>
+    <main class="">
       <form>
-        <div class="home-hero">
-          <div class="mainCardContainer">
-            <p class="arrivalText">New Arrivals</p>
-            <h1 class="text-[#b88e2f] !font-medium">
+        <div class="home-hero w-[100%] ">
+          <div class="xl:w-[40%] w-[70%]  xl:pt-[64px] pt-{10px} xl:pb-[35px] pb-[10px] xl:pl-[39px] pl-[15px] xl:pr-[43px] pr-[20px] bg-[#fff3e3]">
+            <p class="xl: xl:text-start text-center">New Arrivals</p>
+            <h1 class="text-[#b88e2f] xl:text-start text-center !xl:text-xs text-lg ">
               Discover Our New Collection
             </h1>
-            <p class="pt-[17px] pb-[50px] !text-[18px]">
+            <p class="xl:pt-[17px] pt-[0px] xl:pb-[50px] pb-[0px] xl:text-base text-xs ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis.
             </p>
 
-            <button class="btn pry-btn buyNowBtn">Buy Now</button>
+            <button class=" pry-btn buyNowBtn">Buy Now</button>
           </div>
         </div>
       </form>
 
-      <div class="part2">
-        <div class="rangeBox mb-[62.29px]">
-          <h6 class="font-bold">Browse The Range</h6>
+      <div class=" grid w-[100%] self-center justify-center">
+        <div class=" flex flex-col xl:items-center items-center mb-[62px]">
+          <h6 class="font-bold text-lg text-xs">Browse The Range</h6>
 
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <div class="roomsBox">
+        <div class=" w-[100%] xl:gap-[20px]   xl:grid grid-cols-3 grid-cols">
           <div>
             <div>
               <img
@@ -51,29 +51,31 @@
                 class="diningLogo"
               />
             </div>
-            <p class="text-center pt-[30px]">Dining</p>
+            <p class="text-center xl:pt-[30px] pt-[10px]">Dining</p>
           </div>
           <div>
             <div>
               <img src="./homePage/img/livingLogo.svg" alt="" />
             </div>
-            <p class="text-center pt-[30px]">Living</p>
+            <p class="text-center xl:pt-[30px] pt-[10px] ">Living</p>
           </div>
           <div>
             <div>
               <img src="./homePage/img/bedroomLogo.svg" alt="" />
             </div>
-            <p class="text-center pt-[30px]">Bedroom</p>
+            <p class="text-center xl:pt-[30px] pt-[10px]">Bedroom</p>
           </div>
         </div>
       </div>
-      <div class="part3 ">
-        <h3 class="pb-[32px]">Our Products</h3>
+      <div class=" mt-[57px] pb-[69px] xl:w-[100%] w-[100%] grid justify-items-center">
+        <h3 class="xl:pb-[32px] pb-[10px]">Our Products</h3>
 
-        <div class="product ">
-          <div class=" photo-container "> 
-            <div class="  ">
-              <img src="./homePage/img/syltherineLogo.svg" alt=""  />
+        <div class=" grid xl:grid-cols-4 grid-cols-2 xl:gap-[32px] gap-[10px] justify-center items-center ">
+          <div class=" product-box items-center hover:shadow-2xl">
+            <div class="photo-container">
+              <a href="./singleProduct/singleProduct.html">
+                <img src="./homePage/img/syltherineLogo.svg" alt=""
+              /></a>
               <img
                 src="./homePage/img/30DiscountLogo.svg"
                 alt=""
@@ -81,131 +83,146 @@
               />
             </div>
 
-            <div class="productInfo">
+            <div class=" grid pt-[16px] pl-[16px] pb-[30px] bg-[#F4F5F7]">
               <h5>Syltherine</h5>
               <p class="text-[#898989]">Stylish cafe chair</p>
-              <div class="productPrice">
+              <div class="flex gap-[12px] items-center">
                 <h6>Rp 2.500.000</h6>
                 <p><s>Rp 3.500.000</s></p>
               </div>
             </div>
           </div>
 
-
-
-          <div >
+          <div class="product-box hover:shadow-2xl">
             <div class="photo-container">
-           
-              <img src="./homePage/img/leviosaLogo.svg  " alt="" class="leviosa" />
+              <a href=""
+                ><img
+                  src="./homePage/img/leviosaLogo.svg  "
+                  alt=""
+                  class="leviosa"
+              /></a>
             </div>
 
-            <div class="productInfo">
+            <div class=" grid pt-[16px] pl-[16px] pb-[30px] bg-[#F4F5F7]">
               <h5>Leviosa</h5>
               <p class="text-[#898989]">Stylish cafe chair</p>
-              <div class="productPrice">
+              <div class="flex gap-[12px] items-center">
                 <h6>Rp 2.500.000</h6>
               </div>
             </div>
           </div>
-          <div>
+          <div class="product-box hover:shadow-2xl">
             <div class="photo-container">
-              <img src="/homePage/img/lolitoLogo.svg" alt="" />
-              <img
-                src="./homePage/img/50Discount.svg"
-                alt=""
-                class="discount-sticker"
-              />
+              <a href="">
+                <img src="/homePage/img/lolitoLogo.svg" alt="" />
+                <img
+                  src="./homePage/img/50Discount.svg"
+                  alt=""
+                  class="discount-sticker"
+              /></a>
             </div>
-            <div class="productInfo">
+            <div class=" grid pt-[16px] pl-[16px] pb-[30px] bg-[#F4F5F7]">
               <h5>Lolito</h5>
               <p class="text-[#898989]">Luxury big sofa</p>
-              <div class="productPrice">
+              <div class="flex gap-[12px] items-center">
                 <h6>Rp 7.000.000</h6>
                 <p><s>Rp 14.000.000</s></p>
               </div>
             </div>
           </div>
-          <div>
+          <div class="product-box hover:shadow-2xl">
             <div class="photo-container">
-              <img src="/homePage/img/respira.Logo.svg" alt="" />
-              <img
-                src="./homePage/img/newproductsticker.svg"
-                alt=""
-                class="discount-sticker"
-              />
+              <a href="">
+                <img src="/homePage/img/respira.Logo.svg" alt="" />
+                <img
+                  src="./homePage/img/newproductsticker.svg"
+                  alt=""
+                  class="discount-sticker"
+                />
+              </a>
             </div>
 
-            <div class="productInfo">
+            <div class=" grid pt-[16px] pl-[16px] pb-[30px] bg-[#F4F5F7]">
               <h5>Respira</h5>
               <p class="text-[#898989]">Outdoor bar table and stool</p>
-              <div class="productPrice">
+              <div class="flex gap-[12px] items-center">
                 <h6>Rp 500.000</h6>
               </div>
             </div>
           </div>
-          <div>
+
+          <div class="product-box hover:shadow-2xl">
             <div class="photo-container">
-              <img src="./homePage/img/grifoLogo.svg" alt="" />
+              <a href="">
+                <img src="./homePage/img/grifoLogo.svg" alt="" />
+              </a>
             </div>
-            <div class="productInfo">
+            <div class=" grid pt-[16px] pl-[16px] pb-[30px] bg-[#F4F5F7]">
               <h5>Grifo</h5>
               <p class="text-[#898989]">Night lamp</p>
-              <div class="productPrice">
+              <div class="flex gap-[12px] items-center">
                 <h6>Rp 1.500.000</h6>
               </div>
             </div>
           </div>
-          <div>
+          <div class="product-box hover:shadow-2xl">
             <div class="photo-container">
-              <img src="/homePage/img/muggoLogo.svg" alt="" />
-              <img
-                src="./homePage/img/newproductsticker.svg"
-                alt=""
-                class="discount-sticker"
-              />
+              <a href="">
+                <img src="/homePage/img/muggoLogo.svg" alt="" />
+                <img
+                  src="./homePage/img/newproductsticker.svg"
+                  alt=""
+                  class="discount-sticker"
+                />
+              </a>
             </div>
 
-            <div class="productInfo">
+            <div class=" grid pt-[16px] pl-[16px] pb-[30px] bg-[#F4F5F7]">
               <h5>muggo</h5>
               <p class="text-[#898989]">Small mug</p>
-              <div class="productPrice">
+              <div class="flex gap-[12px] items-center">
                 <h6>Rp 1.500.000</h6>
               </div>
             </div>
           </div>
-          <div>
-            <div class="photo-container">
-              <img src="/homePage/img/pingkylogo.svg" alt="" />
 
-              <img
-                src="./homePage/img/50Discount.svg"
-                alt=""
-                class="discount-sticker"
-              />
+          <div class="product-box hover:shadow-2xl">
+            <div class="photo-container">
+              <a href="">
+                <img src="/homePage/img/pingkylogo.svg" alt="" />
+
+                <img
+                  src="./homePage/img/50Discount.svg"
+                  alt=""
+                  class="discount-sticker"
+                />
+              </a>
             </div>
 
-            <div class="productInfo">
+            <div class=" grid pt-[16px] pl-[16px] pb-[30px] bg-[#F4F5F7]">
               <h5>Pingky</h5>
               <p class="text-[#898989]">Cute bed set</p>
-              <div class="productPrice">
+              <div class="flex gap-[12px] items-center">
                 <h6>Rp 7.000.000</h6>
                 <p><s>Rp 14.000.000</s></p>
               </div>
             </div>
           </div>
-          <div class="photo-container">
-            <div>
-              <img src="/homePage/img/pottyLogo.svg" alt="" />
-              <img
-                src="./homePage/img/newproductsticker.svg"
-                alt=""
-                class="discount-sticker"
-              />
+          <div class="product-box hover:shadow-2xl">
+            <div class="photo-container">
+              <a href="">
+                <img src="/homePage/img/pottyLogo.svg" alt="" />
+                <img
+                  src="./homePage/img/newproductsticker.svg"
+                  alt=""
+                  class="discount-sticker"
+                />
+              </a>
             </div>
-            <div class="productInfo">
+            <div class=" grid pt-[16px] pl-[16px] pb-[30px] bg-[#F4F5F7]">
               <h5>Potty</h5>
               <p class="text-[#898989]">Minimalist flower pot</p>
-              <div class="productPrice">
+              <div class="flex gap-[12px] items-center">
                 <h6>Rp 500.000</h6>
               </div>
             </div>
@@ -213,7 +230,7 @@
         </div>
         <button
           id="showMoreBtn"
-          class="sec-btn mt-[32px]  border-gray-800 items-center justify-center flex"
+          class="sec-btn mt-[32px] items-center justify-center flex"
         >
           Show More
         </button>
@@ -223,8 +240,8 @@
     <iframe
       src="./Footer/footer.html"
       frameborder="0"
-      height="507"
-      style="width: 100%"
+      style="width: 100%; max-width: 1440px; height: 507px; background-color: #ffffff;" 
+
     ></iframe>
   </body>
 </html>
