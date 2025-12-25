@@ -46,7 +46,7 @@ h6 {
 
 .subheading {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 p {
@@ -189,13 +189,16 @@ border: none;
     font-weight: 300;
   }
 
+  .subheading {
+    font-weight: 400;
+    font-size: 10px;
+  }
+
 
 .buyNowBtn{
   padding: 8px 20px;
   margin-top: 15px;
   /* font-weight: 300;  */
-
-  
 
 }
 
@@ -203,6 +206,14 @@ s{
   font-size: 10px;
 }
   
+.sec-btn{
+padding: 5px 5px;
+
+font-size: 10px;
+
+}
+
+
 }
 
 
