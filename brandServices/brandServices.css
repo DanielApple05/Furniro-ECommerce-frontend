@@ -6,19 +6,21 @@ background-color: blanchedalmond;
 
 
 
-.serviceBox{
 
-  display: flex;
-  flex-direction: row;
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  /* justify-items: center; */
 
+
+@media (max-width: 768px) {
+  body{
+    /* height: 100px; */
+  }
 }
 
 
-.brand-box{
-  display: flex;
-  justify-content: space-between;
-}
+
+
+
+ 
+
+
+
 

@@ -20,11 +20,20 @@ header {
 
 
 
-/* 
+
 @media (max-width: 768px) {
   header {
+
     padding-left: 20px;
     padding-right: 20px;
+  
   }
-} */
+
+  .header-container{
+    display: flex;
+justify-content: space-between;
+
+
+  }
+}
 

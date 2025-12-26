@@ -159,7 +159,7 @@ border: none;
 @media (max-width: 768px) {
   h1 {
     font-size: 20px;
-    line-height: 44px;
+    line-height: 20px;
     font-weight: 300;
   }
 
@@ -208,15 +208,26 @@ s{
   
 .sec-btn{
 padding: 5px 5px;
+  font-size: 10px;
+}
 
-font-size: 10px;
+.customLine-vert{
+  margin: 5px 5px;
+}
+
+
+.tert-btn{
+
+  padding: 5px 10px;
+  font-size: 10px;
+}
+
+
+.number-btn{
+  padding: 5px 10px;
+  font-size: 10px;
 
 }
 
 
 }
-
-
-
-
-
