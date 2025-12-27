@@ -10,42 +10,73 @@
     <link rel="stylesheet" href="../homePage/home.css" />
     <title>Single Product</title>
   </head>
+
   <body>
     <iframe
       src="../header/headerConponent.html"
       frameborder="0"
-      style="width: 100%"
-      height="100px"
+      style="
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        height: 80px;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        background-color: #ffffff;
+      "
     ></iframe>
-
-    <main>
+    <main class="margin-[0]">
       <div
-        class="flex bg-[#F9F1E7] gap-[24px] pt-[38px] pb-[38px] pl-[100px] items-center"
+        class="flex bg-[#F9F1E7] gap-[24px] xl:pt-[38px] pt-[10px] xl:pb-[38px] pb-[10px] xl:pl-[100px] pl-[10px] mt-[80px] items-center"
       >
-        <a href="../index.html"> Home > </a>
-        <a href="../shop.html"> Shop > </a>
+        <a href="../index.html" class="xl:text-[16px] text-[10px]"> Home > </a>
+        <a href="../shop.html" class="xl:text-[16px] text-[10px]"> Shop > </a>
         <h6>Asgaard Sofa</h6>
       </div>
-      <div class="px-[99px] pt-[35px] pb-[55px]">
-        <div class="asgaard-container">
-          <div class="asgaard-album">
-            <div class="small-images-box">
-              <img src="img/asgaardSofa1.svg" alt="" class="small-images" />
 
-              <img src="img/asgaardSofa2.svg" alt="" class="small-images" />
+      <div
+        class="xl:px-[99px] px-[20px] xl:pt-[35px] pt-[10px] xl:pb-[55px] pb-[10px]"
+      >
+        <div class="xl:flex grid xl:gap-[82px] gap-[15px]">
+          <div class="flex xl:gap-[32px] gap-[0px] w-[100%]">
+            <div class="flex flex-col xl:gap-[32px] gap-[5px]">
+              <img
+                src="img/asgaardSofa1.svg"
+                alt=""
+                class="xl:h-[80px] h-[50px] w-[76px] object-cover"
+              />
 
-              <img src="img/asgaardSofa3.svg" alt="" class="small-images" />
+              <img
+                src="img/asgaardSofa2.svg"
+                alt=""
+                class="xl:h-[80px] h-[50px] w-[76px] object-cover"
+              />
 
-              <img src="img/asgaardSofa4.svg" alt="" class="small-images" />
+              <img
+                src="img/asgaardSofa3.svg"
+                alt=""
+                class="xl:h-[80px] h-[50px] w-[76px] object-cover"
+              />
+
+              <img
+                src="img/asgaardSofa4.svg"
+                alt=""
+                class="xl:h-[80px] h-[50px] xl:w-[] object-cover"
+              />
             </div>
 
-            <div>
-              <img src="img/asgaard.Sofa.svg" alt="" class="big-image" />
+            <div class="rounded">
+              <img
+                src="img/asgaard.Sofa.svg"
+                alt=""
+                class="w-[481px] xl:h-[500px] h-[250px] object-cover rounded"
+              />
             </div>
           </div>
 
-          <div class="grid content-between h-[100%]">
-            <div class="space-y-[18px]">
+          <div class="grid content-between">
+            <div class="xl:space-y-[18px] space-y-[5px]">
               <h3>Asgaard sofa</h3>
               <h5>Rs. 250,000.00</h5>
               <div class="flex items-center">
@@ -67,33 +98,63 @@
                   </div>
                   <hr class="customLine-vert" />
                 </div>
-                <p class="!text-xs">5 Customer Review</p>
+                <p>
+                  <span class="xl:text-[12px] text-[10px]"
+                    >5 Customer Review</span
+                  >
+                </p>
               </div>
               <p>
-                Setting the bar as one of the loudest speakers in its class, the
-                Kilburn is a compact, stout-hearted hero with a well-balanced
-                audio which boasts a clear midrange and extended highs for a
-                sound.
+                <span class="xl:text-[16px] text-[10px]">
+                  Setting the bar as one of the loudest speakers in its class,
+                  the Kilburn is a compact, stout-hearted hero with a
+                  well-balanced audio which boasts a clear midrange and extended
+                  highs for a sound.
+                </span>
               </p>
               <div>
-                <p>Size</p>
-                <div class="flex gap-[16px]">
-                  <button class="pry-btn px-[12px] py-[5px]">L</button>
-                  <button class="pry-btn px-[8px] py-[5px]">XL</button>
-                  <button class="pry-btn px-[7px] py-[5px]">XS</button>
+                <p><span class="xl:text-[16px] text-[12px]">Size</span></p>
+                <div class="flex xl:gap-[16px] gap-[4px]">
+                  <button
+                    class="pry-btn xl:px-[12px] px-[6px] xl:py-[5px] py-[0px]"
+                  >
+                    L
+                  </button>
+                  <button
+                    class="pry-btn xl:px-[8px] px-[4px] xl:py-[5px] py-[0px]"
+                  >
+                    XL
+                  </button>
+                  <button
+                    class="pry-btn xl:px-[7px] px-[4px] xl:py-[5px] py-[0px]"
+                  >
+                    XS
+                  </button>
                 </div>
               </div>
 
               <div>
-                <p>Color</p>
-                <div class="flex gap-[16px]">
-                  <img src="img/purple.svg" alt="" />
-                  <img src="img/black.svg" alt="" />
-                  <img src="img/brown.svg" alt="" />
+                <p><span class="xl:text-[16px] text-[12px]">Color</span></p>
+                <div class="flex xl:gap-[16px] gap-[4px]">
+                  <img
+                    src="img/purple.svg"
+                    alt=""
+                    class="xl:w-[35px] w-[20px]"
+                  />
+                  <img
+                    src="img/black.svg"
+                    alt=""
+                    class="xl:w-[35px] w-[20px]"
+                  />
+                  <img
+                    src="img/brown.svg"
+                    alt=""
+                    class="xl:w-[35px] w-[20px]"
+                  />
                 </div>
               </div>
               <div>
-                <button class="large-btn px-[15px]">- 1 +</button>
+                <button class="large-btn xl:px-[15px] px-[10px]">- 1 +</button>
 
                 <button class="large-btn px-[48px]">Add To Cart</button>
 
@@ -101,37 +162,53 @@
               </div>
             </div>
 
-            <hr class="customLine !mt[60px] !mb-[41px]" />
+            <hr
+              class="customLine xl:mt-[60px] mt-[15px] xl:mb-[41px] mb-[10px]"
+            />
 
             <div class="flex">
-              <div class="grid gap-[13px]">
-                <p>SKU</p>
+              <div class="grid xl:gap-[13px] gap-[3px] items-center">
+                <p><span class="xl:text-[16px] text-[10px]"> SKU</span></p>
 
-                <p>Category</p>
+                <p><span class="xl:text-[16px] text-[10px]">Category</span></p>
 
-                <p>Tag</p>
-                <p>share</p>
+                <p><span class="xl:text-[16px] text-[10px]">Tag</span></p>
+                <p class="xl:text-[16px] text-[10px]">share</p>
               </div>
-              <div class="grid px-[14px] gap-[13px]">
+              <div
+                class="grid xl:px-[14px] px-[10px] xl:gap-[13px] gap-[2px] items-center"
+              >
                 <span>:</span>
                 <span>:</span>
                 <span>:</span>
                 <span>:</span>
               </div>
 
-              <div class="grid gap-[13px]">
+              <div class="grid xl:gap-[13px] gap-[5px] items-center">
                 <p>SS001</p>
                 <p>Sofas</p>
                 <p>Sofa, Chair, Home, Shop</p>
-                <div class="flex items-center gap-[23px]">
+                <div class="flex items-center xl:gap-[23px] gap-[10px]">
                   <div>
-                    <img src="img/facebookLogo.svg" alt="" />
+                    <img
+                      src="img/facebookLogo.svg"
+                      alt=""
+                      class="xl:w-[20px] w-[15px]"
+                    />
                   </div>
                   <div>
-                    <img src="img/linkedinLogo.svg" alt="" />
+                    <img
+                      src="img/linkedinLogo.svg"
+                      alt=""
+                      class="xl:w-[20px] w-[15px]"
+                    />
                   </div>
                   <div>
-                    <img src="img/twitterLogo.svg" alt="" />
+                    <img
+                      src="img/twitterLogo.svg"
+                      alt=""
+                      class="xl:w-[0px] w-[15px]"
+                    />
                   </div>
                 </div>
               </div>
@@ -141,95 +218,162 @@
       </div>
 
       <div class=" ">
-        <hr class="customLine !mb-[48px]" />
-        <div class="px-[206px] gap-[35px]">
-          <div class="gap-[53px] mb-[37px] flex justify-center">
+        <hr class="customLine xl:mb-[48px] mb-[10px]" />
+        <div class="xl:px-[206px] px-[30px] xl:gap-[35px]gap-[10px]">
+          <div
+            class="xl:gap-[53px] gap-[15px] xl:mb-[37px] mb-[10px] flex justify-center"
+          >
             <h5>Description</h5>
             <h5>Additional Information</h5>
             <h5>Reviews [5]</h5>
           </div>
 
-          <p class="mb-[35px]">
-            Embodying the raw, wayward spirit of rock 'n' roll, the Kilburn
-            portable active stereo speaker takes the unmistakable look and sound
-            of Marshall, unplugs the chords, and takes the show on the road.
+          <p>
+            <span class="xl:text-[16px] text-[10px]">
+              Embodying the raw, wayward spirit of rock 'n' roll, the Kilburn
+              portable active stereo speaker takes the unmistakable look and
+              sound of Marshall, unplugs the chords, and takes the show on the
+              road.
+            </span>
           </p>
           <p>
-            Weighing in under 7 pounds, the Kilburn is a lightweight piece of
-            vintage styled engineering. Setting the bar as one of the loudest
-            speakers in its class, the Kilburn is a compact, stout-hearted hero
-            with a well-balanced audio which boasts a clear midrange and
-            extended highs for a sound that is both articulate and pronounced.
-            The analogue knobs allow you to fine tune the controls to your
-            personal preferences while the guitar-influenced leather strap
-            enables easy and stylish travel.
+            <span class="xl:text-[16px] text-[10px]">
+              fine tune the controls to your personal preferences while the
+              guitar-influenced leather strap Weighing in under 7 pounds, the
+              Kilburn is a lightweight piece of vintage styled engineering.
+              Setting the bar as one of the loudest speakers in its class, the
+              Kilburn is a compact, stout-hearted hero with a well-balanced
+              audio which boasts a clear midrange and extended highs for a sound
+              that is both articulate and pronounced. The analogue knobs allow
+              you to enables easy and stylish travel.
+            </span>
           </p>
         </div>
 
-        <div class="flex gap-[30px] justify-center pt-[36px]">
+        <div
+          class="flex xl:gap-[30px] gap-[10px] justify-center xl:pt-[36px] pt-[10px]"
+        >
           <div>
-            <img src="img/cushion1.svg" alt="" />
+            <img
+              src="img/cushion1.svg"
+              alt=""
+              class="xl:w-[605px] w-[150px] xl:h-[348px] h-[150px]"
+            />
           </div>
           <div>
-            <img src="img/cushion2.svg" alt="" />
+            <img
+              src="img/cushion2.svg"
+              alt=""
+              class="xl:w-[605px] w-[150px] xl:h-[348px] h-[150px]"
+            />
           </div>
         </div>
       </div>
 
       <div class=" ">
-        <hr class="customLine !my-[57px]" />
-        <h5 class="text-center mb-[26px]">Related Products</h5>
+        <hr class="customLine xl:my-[57px] my-[10px]" />
+        <h5 class="text-center xl:mb-[26px] mb-[10px]">Related Products</h5>
 
-        <div class="flex justify-center gap-[32px]">
-          <div>
-            <img src="/homePage/img/syltherineLogo.svg" alt="" />
-            <div class="productInfo">
+        <div class="grid xl:grid-cols-4 grid-cols-2 xl:gap-[32px] gap-[10px] xl:px[0] px-[20px]">
+          <div class="product-box items-center hover:shadow-2xl">
+            <div class="photo-container">
+              <a href="singleProduct.html">
+                <img src="../homePage/img/syltherineLogo.svg" alt=""
+              /></a>
+              <img
+                src="../homePage/img/30DiscountLogo.svg"
+                alt=""
+                class="discount-sticker"
+              />
+            </div>
+
+            <div
+              class="grid xl:pt-[16px] pt-[5px] xl:pl-[16px] pl-[5px] xl:pb-[30px] pb-[5px] bg-[#F4F5F7]"
+            >
               <h5>Syltherine</h5>
-              <p>Stylish cafe chair</p>
-              <div class="productPrice">
-                <h6>Rp 2.500.000</h6>
-                <p><s>Rp 3.500.000</s></p>
+              <p class="xl:text-subheading subheading text-[#898989]">
+                Stylish cafe chair
+              </p>
+              <div class="flex gap-[12px] items-center">
+                <p class="!font-bold">Rp 2.500.000</p>
+                <s>Rp 3.500.000</s>
               </div>
             </div>
           </div>
-          <div>
-            <img src="/homePage/img/leviosaLogo.svg" alt="" />
 
-            <div class="productInfo">
+          <div class="product-box hover:shadow-2xl">
+            <div class="photo-container">
+              <a href=""
+                ><img
+                  src="../homePage/img/leviosaLogo.svg  "
+                  alt=""
+                  class="leviosa"
+              /></a>
+            </div>
+
+            <div
+              class="grid xl:pt-[16px] pt-[5px] xl:pl-[16px] pl-[5px] xl:pb-[30px] pb-[5px] bg-[#F4F5F7]"
+            >
               <h5>Leviosa</h5>
-              <p>Stylish cafe chair</p>
-              <div class="productPrice">
-                <h6>Rp 2.500.000</h6>
+              <p class="subheading text-[#898989]">Stylish cafe chair</p>
+              <div class="flex gap-[12px] items-center">
+                <p class="!font-bold">Rp 2.500.000</p>
               </div>
             </div>
           </div>
-          <div>
-            <img src="/homePage/img/lolitoLogo.svg" alt="" />
-            <div class="productInfo">
+
+          <div class="product-box hover:shadow-2xl">
+            <div class="photo-container">
+              <a href="">
+                <img src="/homePage/img/lolitoLogo.svg" alt="" />
+                <img
+                  src="./homePage/img/50Discount.svg"
+                  alt=""
+                  class="discount-sticker"
+              /></a>
+            </div>
+            <div
+              class="grid xl:pt-[16px] pt-[5px] xl:pl-[16px] pl-[5px] xl:pb-[30px] pb-[5px] bg-[#F4F5F7]"
+            >
               <h5>Lolito</h5>
-              <p>Luxury big sofa</p>
-              <div class="productPrice">
-                <h6>Rp 7.000.000</h6>
-                <p><s>Rp 14.000.000</s></p>
+              <p class="subheading text-[#898989]">Luxury big sofa</p>
+              <div class="flex gap-[12px] items-center">
+                <p class="!font-bold">Rp 7.000.000</p>
+                <s>Rp 14.000.000</s>
               </div>
             </div>
           </div>
-          <div>
-            <img src="/homePage/img/respira.Logo.svg" alt="" />
-            <div class="productInfo">
+
+          <div class="product-box hover:shadow-2xl">
+            <div class="photo-container">
+              <a href="">
+                <img src="/homePage/img/respira.Logo.svg" alt="" />
+                <img
+                  src="./homePage/img/newproductsticker.svg"
+                  alt=""
+                  class="discount-sticker"
+                />
+              </a>
+            </div>
+
+            <div
+              class="grid xl:pt-[16px] pt-[5px] xl:pl-[16px] pl-[5px] xl:pb-[30px] pb-[5px] bg-[#F4F5F7]"
+            >
               <h5>Respira</h5>
-              <p>Outdoor bar table and stool</p>
-              <div class="productPrice">
-                <h6>Rp 500.000</h6>
+              <p class="subheading text-[#898989]">
+                Outdoor bar table and stool
+              </p>
+              <div class="flex gap-[12px] items-center">
+                <p class="!font-bold">Rp 500.000</p>
               </div>
             </div>
           </div>
         </div>
         <div class="flex justify-center">
-          <button class="sec-btn mt-[32px] mb-[69px]">Show More</button>
+          <button class="sec-btn xl:mt-[32px] mt-[10px] xl:mb-[69px] mb-[10px]">Show More</button>
         </div>
 
-        <hr class="customLine mt-[92px] mb-[12px]" />
+        <hr class="customLine xl:mt-[92px] mt-[5px] xl:mb-[12px] mb-[5px]" />
       </div>
     </main>
     <iframe

@@ -1,5 +1,5 @@
 body{
-height: 270px;
+
 background-color: blanchedalmond;
 }
 
@@ -11,7 +11,7 @@ background-color: blanchedalmond;
 
 @media (max-width: 768px) {
   body{
-    /* height: 100px; */
+    
   }
 }
 

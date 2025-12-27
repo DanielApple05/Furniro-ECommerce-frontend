@@ -134,8 +134,8 @@ p {
 
 border: none;         
   height: 0.75px;
+  
   background-color: #000000;
-  margin: 20px 0;
 }
 
 .customLine-vert{
@@ -176,16 +176,16 @@ border: none;
   }
 
   h5 {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   h6 {
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 10px;
+    font-weight: 600;
   }
 
   p{
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 300;
   }
 
@@ -212,13 +212,27 @@ padding: 5px 5px;
 }
 
 .customLine-vert{
-  margin: 5px 5px;
+margin-top: 0%;
+margin-bottom: 0%;
+height: 30px;
+margin-left: 10%;
+margin-right: 10%;
 }
 
 
+.customLine{
+
+
+}
+
+.large-btn{
+  padding: 5px 10px;
+  font-size: 10px;
+}
+
 .tert-btn{
 
-  padding: 5px 10px;
+  padding: 5px 5px;
   font-size: 10px;
 }
 

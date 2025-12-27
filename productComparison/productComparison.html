@@ -14,7 +14,16 @@
     <iframe
       src="../header/headerConponent.html"
       frameborder="0"
-      style="width: 100%"
+      style="
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        height: 80px;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        background-color: #ffffff;
+      "
     ></iframe>
 
     <div class="shop-hero">
@@ -29,7 +38,7 @@
       </div>
     </div>
 
-    <div class="px-[54px] pt-[34px]">
+    <div class="xl:px-[54px] px-[5px] pt-[34px]">
       <div class="flex gap-[5%] w-[100%] justify-center">
         <div class="w-[20%]">
           <h5 class="go-to">Go to Product page for more Products</h5>
@@ -110,15 +119,16 @@
           <h5>Add A Product</h5>
         </div>
       </div>
-      <hr class="customLine !mt-[64px] !mb-[0%]" />
+      <hr class="customLine xl:mt-[64px] mt-[30px] !mb-[0%]" />
 
-      <table class="w-[75%] mb-[112px] "
-          >
-        <tbody class="">
-          <div class="w-[25%]">
+      <table class="xl:w-[75%] w-[50%] mb-[112px]">
+        <tbody class=" ">
+          <div class="xl:w-[25%] w-[15%]">
             <tr class="">
-              <td class="px-[32px] border-r w-[25%] mb-[60px]">
-                <div class="flex flex-col space-y-4">
+              <td
+                class="xl:px-[32px] px-[5px] border-r w-[25%] xl:mb-[60px] mb-[20px]"
+              >
+                <div class="flex flex-col xl:space-y-4 space-y-2">
                   <h5>General</h5>
                   <p>Sales Package</p>
                   <p>Model Number</p>
@@ -129,8 +139,8 @@
                 </div>
               </td>
 
-              <td class="px-[32px] border-r w-[25%]">
-                <div class="table3 space-y-4">
+              <td class="xl:px-[32px] px-[5px] border-r xl:w-[25%] w-[15%]">
+                <div class="table3 xl:space-y-4 space-y-2">
                   <p>1 sectional sofa</p>
                   <p>TFCBLIGRBL6SRHS</p>
                   <p>Solid Wood</p>
@@ -140,8 +150,8 @@
                 </div>
               </td>
 
-              <td class="px-[32px] w-[25%] border-r">
-                <div class="flex flex-col space-y-4">
+              <td class="xl:px-[32px] px-[5px] xl:w-[25%] w-[15px] border-r">
+                <div class="flex flex-col xl:space-y-4 space-y-2">
                   <p>1 Three Seater, 2 Single Seater</p>
                   <p>DTUBLIGRBL568</p>
                   <p>Solid Wood</p>
@@ -153,10 +163,12 @@
             </tr>
           </div>
 
-          <div class="w-[25%]">
-            <tr class="gap-[96px]">
-              <td class="px-[32px] border-r pb-[60px] w-[25%]">
-                <div class="flex flex-col space-y-4">
+          <div class="xl:w-[25%] w-[15%]">
+            <tr class="">
+              <td
+                class="xl:px-[32px] px-[5px] border-r xl:pb-[60px] pb-[30px] xl:w-[25%] w-[15%]"
+              >
+                <div class="flex flex-col xl:space-y-4 space-y-2">
                   <h5>Product</h5>
                   <p>Filling Material</p>
                   <p>Finish Type</p>
@@ -166,8 +178,8 @@
                 </div>
               </td>
 
-              <td class="px-[32px] border-r w-[25%]">
-                <div class="flex flex-col space-y-4">
+              <td class="xl:px-[32px] px-[5px] border-r xl:w-[25%] w-[15%]">
+                <div class="flex flex-col xl:space-y-4 space-y-6">
                   <p>Foam</p>
                   <p>Bright Grey & Lion</p>
                   <p>No</p>
@@ -176,8 +188,8 @@
                 </div>
               </td>
 
-              <td class="px-[32px] border-r w-[25%]">
-                <div class="flex flex-col space-y-4">
+              <td class="xl:px-[32px] px-[5px] border-r xl:w-[25%] w-[15%]">
+                <div class="flex flex-col xl:space-y-4 space-y-6">
                   <p>Matte</p>
                   <p>Bright Gray & Lion</p>
                   <p>Yes</p>
@@ -188,10 +200,10 @@
             </tr>
           </div>
 
-          <div >
-            <tr class="w-[25%]">
-              <td class="px-[32px] border-r pb-[60px] w-[25%]">
-                <div class="flex flex-col space-y-4">
+          <div>
+            <tr class="xl:w-[25%] w-[15%]">
+              <td class="xl:px-[32px] px-[5px] border-r xl:w-[25%] w-[15%]">
+                <div class="flex flex-col xl:space-y-4 space-y-2">
                   <h5>Dimensions</h5>
                   <p>Width</p>
                   <p>Height</p>
@@ -202,8 +214,8 @@
                 </div>
               </td>
 
-              <td class="px-[32px] border-r w-[25%]">
-                <div class="flex flex-col space-y-4">
+              <td class="xl:px-[32px] px-[5px] border-r xl:w-[25%] w-[15%]">
+                <div class="flex flex-col xl:space-y-4 space-y-2 xl:pt-[0] pt-[20px]">
                   <p>265.32 cm</p>
                   <p>76 cm</p>
                   <p>167.76 cm</p>
@@ -213,8 +225,8 @@
                 </div>
               </td>
 
-              <td class="px-[32px] border-r w-[25%]">
-                <div class="flex flex-col space-y-4">
+              <td class="xl:px-[32px] px-[5px] border-r xl:w-[25%] w-[15px]">
+                <div class="flex flex-col xl:space-y-4 space-y-2 xl:pt-[0] pt-[20px]">
                   <p>265.32cm</p>
                   <p>76cm</p>
                   <p>167.76 cm</p>
@@ -226,10 +238,10 @@
             </tr>
           </div>
 
-          <div class="w-[75%]">
-            <tr>
-              <td class="px-[32px] border-r w-[25%]">
-                <div class="flex flex-col space-y-[80px]">
+          <div>
+            <tr class="xl:w-[25%] w-[15%]">
+              <td class="xl:px-[32px] px-[5px] border-r xl:w-[25%] w-[15%]">
+                <div class="flex flex-col xl:space-y-15 space-y-8">
                   <h5>Warranty</h5>
                   <p>Warranty Summary</p>
                   <p>Warranty Service Type</p>
@@ -239,8 +251,8 @@
                 </div>
               </td>
 
-              <td class="px-[32px] border-r w-[25%]">
-                <div class="flex flex-col space-y-13 pt-[120px] mb-[53px]">
+              <td class="xl:px-[32px] px-[5px] border-r w-[25%]">
+                <div class="flex flex-col xl:space-y-5 space-y-3 xl:pt-[100px] pt-[50px]">
                   <p>1 Year Manufacturing Warranty</p>
                   <p>
                     For Warranty Claims or Any Product Related Issues Please
@@ -255,13 +267,10 @@
 
                   <p>1 Year</p>
                 </div>
-                <button class="pry-btn !px-[48px] !py-[17px] ">
-                  Add To Cart
-                </button>
               </td>
 
-              <td class="px-[32px] border-r w-[25%]">
-                <div class="flex flex-col space-y-10 pt-[100px] mb-[53px]">
+              <td class="xl:px-[32px] px-[5px] border-r xl:w-[25%] w-[15%]">
+                <div class="flex flex-col xl:space-y-5 space-y-3 xl:pt-[150px] pt-[70px]">
                   <p>1.2 Year Manufacturing Warranty</p>
                   <p>
                     For Warranty Claims or Any Product Related Issues Please
@@ -278,9 +287,21 @@
                   </p>
                   <p>3 Months</p>
                 </div>
-                 <button class="pry-btn px-[48px] py-[17px]">Add To Cart</button>
               </td>
-             
+            </tr>
+          </div>
+
+          <div>
+            <tr>
+              <td></td>
+
+              <td>
+                <button class="pry-btn xl:px-[48px] px-[10px] py-[17px]">Add To Cart</button>
+              </td>
+
+              <td>
+                <button class="pry-btn xl:px-[48px] px-[10px] py-[17px]">Add To Cart</button>
+              </td>
             </tr>
           </div>
         </tbody>
@@ -288,17 +309,18 @@
     </div>
 
     <iframe
-        src="../brandServices/brandServices.html"
-        frameborder="0"
-        style="width: 100%" height="270px"
-      >
-      </iframe>
+      src="../brandServices/brandServices.html"
+      frameborder="0"
+      style="width: 100%"
+      height="270px"
+    >
+    </iframe>
 
-      <iframe
-        src="../Footer/footer.html"
-        frameborder="0"
-        width="100%;" height="505px"
-      ></iframe>
-
+    <iframe
+      src="../Footer/footer.html"
+      frameborder="0"
+      width="100%;"
+      height="505px"
+    ></iframe>
   </body>
 </html>
