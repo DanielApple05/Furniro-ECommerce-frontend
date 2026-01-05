@@ -244,4 +244,18 @@ margin-right: 10%;
 }
 
 
+.input-text-box{
+  padding: 5px;
+  padding-right: 150px;
+  border-radius: 5px;
+
+}
+
+.pry-btn {
+  font-size:10px;
+
+
+}
+
+
 }
