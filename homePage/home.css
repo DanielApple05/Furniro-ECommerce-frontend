@@ -69,5 +69,10 @@ overflow: hidden;
     justify-content: end;
     padding-right: 10px;
   }
+
+  .discount-sticker{
+
+    width: 25px;
+  }
   
 }
