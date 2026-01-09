@@ -46,19 +46,12 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-const cartIcon = document.getElementById("cartIcon");
-const cartIframe = document.getElementById("cartIframe");
 
-// Toggle dropdown when cart icon is clicked
-cartIcon.addEventListener("click", (e) => {
-  e.stopPropagation(); // prevent document click
-  cartIframe.classList.toggle("active");
-});
 
-// Close dropdown when clicking outside
-document.addEventListener("click", () => {
-  cartIframe.classList.remove("active");
-});
+
+
+
+
 
 
 
