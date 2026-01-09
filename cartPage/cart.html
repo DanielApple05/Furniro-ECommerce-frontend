@@ -7,16 +7,24 @@
     <link rel="stylesheet" href="../cart.css" />
     <link rel="stylesheet" href="../shop/shop.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-   
+
     <title>Cart Page</title>
   </head>
   <body>
-     <script src="/furniro.js" defer></script>
+    <script src="/furniro.js" defer></script>
     <iframe
       src="../header/headerConponent.html"
       frameborder="0"
-      style="width: 100%"
-      height="100px"
+      style="
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        height: 80px;
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+      "
+      id="headerIframe"
     ></iframe>
 
     <div class="shop-hero">
@@ -27,46 +35,56 @@
       <div class="homeShop">
         <a href="../index.html">Home</a>
         <h6>></h6>
-        <a href="../cartPage/" > Cart</a>
+        <a href="../cartPage/"> Cart</a>
       </div>
     </div>
 
-    <div class="px-[100px] py-[71px] w-[100%]">
-      <div class="flex gap-[5%]">
-        <div class="w-[67%]">
-          <div class="px-[142px] py-[14px] bg-[#F9F1E7]">
-            <div class="flex justify-between">
-              <p>Product</p>
-              <p>Price</p>
-              <p>Quantity</p>
-              <p>Subtotal</p>
-            </div>
-          </div>
-
-          <div class="flex items-center justify-between  pt-[58px] pr-[25px]">
-            <div class="flex items-center gap-[30px]  ">
-              <img
-                src="../productComparison/img/sofa-asgaard.svg"
-                alt=""
-                class="w-[105px] h-[111px] bg-[#F9F1E7]  rounded"
-              />
-               <p class=" ">Asgaard Sofa</p>
+    <div class="xl:px-[100px] px-[10px] xl:py-[71px] py-[10px] w-[60%]  ">
+      <div class="flex xl:flex grid xl:gap-[5%]  gap-[0%] justify-center xl:bg-[#ffffff] bg-[#F9F1E7]">
+        <div class="xl:w-[67%] w-[100%] ">
+          <div class="flex xl:flex-col flex-row xl:gap-[0px] gap-[15px]">
+            <div
+              class="xl:px-[142px] px-[5px] xl:py-[14px] py-[7px] bg-[#F9F1E7] "
+            >
+              <div
+                class="flex xl:flex grid justify-between xl:space-y-0 space-y-4"
+              >
+                <p>Product</p>
+                <p>Price</p>
+                <p>Quantity</p>
+                <p>Subtotal</p>
+              </div>
             </div>
 
-           
+            <div
+              class=" xl:flex flex-cols items-center justify-between xl:pt-[58px] pt-[0px] xl:pr-[25px] pr-[5px]  xl:space-y-0 space-y-3"
+            >
+              <div class="flex items-center xl:gap-[30px] gap-[5px] ">
+                <img
+                  src="../productComparison/img/sofa-asgaard.svg"
+                  alt=""
+                  class="xl:w-[105px] w-[30px] xl:h-[111px] h-[30px] bg-[#F9F1E7] rounded"
+                />
+                <p class=" ">Asgaard Sofa</p>
+              </div>
 
-            <p>Rs. 250,000.00</p>
+              <p>Rs. 250,000.00</p>
 
-            <input type="number" class="w-[33px] border-black" />
+              <input type="number" class="xl:w-[33px] w-[15px] xl:h-[33px] h-[15px] border-black" />
 
-            <p>Rs. 250,000.00</p>
+              <div class="flex items-center xl:gap-[50px] gap-[20px] ">
+                <p>Rs. 250,000.00</p>
 
-            <div>
-              <img src="./delete-icon.svg" alt="" />
+                <div>
+                  <img src="./delete-icon.svg" alt="" class="xl:w-[20px] w-[10px]"/>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="grid bg-[#F9F1E7] gap-[30px] w-[28%] pb-[84px] pt-[15px]">
+        <div
+          class="grid bg-[#F9F1E7] xl:gap-[30px] gap-[10px] xl:w-[28%] w-[100%] xl:pb-[84px] pb-[10px] xl:pt-[15px] pt-[5px] "
+        >
           <h5 class="text-center">Cart Totals</h5>
           <div class="flex justify-around">
             <h6>Subtotal</h6>
@@ -77,24 +95,27 @@
             <p>Rs. 250,000.00</p>
           </div>
 
-          <button id="checkoutBtn" class="large-btn mx-[85px] !py-[14px]   " >Check Out</button>
+          <button
+            id="checkoutBtn"
+            class="large-btn xl:mx-[85px] mx-[35px] xl:px-[14px] px-[5px]"
+          >
+            Check Out
+          </button>
         </div>
       </div>
     </div>
 
-     <iframe
-        src="../brandServices/brandServices.html"
-        frameborder="0"
-        style="width: 100%" height="270px"
-      >
-      </iframe>
+    <iframe
+      src="../brandServices/brandServices.html"
+      frameborder="0"
+      class="w-[100%] xl:h-[270px] h-[140px]"
+    >
+    </iframe>
 
-      <iframe
-        src="../Footer/footer.html"
-        frameborder="0"
-        width="100%;" height="505px"
-      ></iframe>
-
+    <iframe
+      src="../Footer/footer.html"
+      frameborder="0"
+      class="w-[100%] max-w-[1440px] xl:h-[507px] h-[400px]"
+    ></iframe>
   </body>
-
 </html>
