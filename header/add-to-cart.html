@@ -1,12 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../style.css">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>add to cart</title>
+  </head>
+  <body>
+    <div
+      class="xl:px-[100px] px-[10px] xl:py-[71px] py-[10px] xl:w-[100%] w-[60%]"
+    >
+      <div
+        class="flex xl:flex grid xl:gap-[5%] gap-[0%] justify-center xl:bg-[#ffffff] bg-[#F9F1E7]"
+      >
+        <div class="xl:w-[67%] w-[100%]">
+          <div class="flex xl:flex-col flex-row xl:gap-[0px] gap-[15px]">
+            <div
+              class="xl:px-[142px] px-[5px] xl:py-[14px] py-[7px] bg-[#F9F1E7]"
+            >
+              <div
+                class="flex xl:flex grid justify-between xl:space-y-0 space-y-4"
+              >
+                <p>Product</p>
+                <p>Price</p>
+                <p>Quantity</p>
+                <p>Subtotal</p>
+              </div>
+            </div>
+
+            <div
+              class="xl:flex flex-cols items-center justify-between xl:pt-[58px] pt-[0px] xl:pr-[25px] pr-[5px] xl:space-y-0 space-y-3"
+            >
+              <div class="flex items-center xl:gap-[30px] gap-[5px]">
+                <img
+                  src="../productComparison/img/sofa-asgaard.svg"
+                  alt=""
+                  class="xl:w-[105px] w-[30px] xl:h-[111px] h-[30px] bg-[#F9F1E7] rounded"
+                />
+                <p class=" ">Asgaard Sofa</p>
+              </div>
+
+              <p>Rs. 250,000.00</p>
+
+              <input
+                type="number"
+                class="xl:w-[33px] w-[15px] xl:h-[33px] h-[15px] border-black"
+              />
+
+              <div class="flex items-center xl:gap-[50px] gap-[20px]">
+                <p>Rs. 250,000.00</p>
+
+                <div>
+                  <img
+                    src="./delete-icon.svg"
+                    alt=""
+                    class="xl:w-[20px] w-[10px]"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="grid bg-[#F9F1E7] xl:gap-[30px] gap-[10px] xl:w-[28%] w-[100%] xl:pb-[84px] pb-[10px] xl:pt-[15px] pt-[5px]"
+        >
+          <h5 class="text-center">Cart Totals</h5>
+          <div class="flex justify-around">
+            <h6>Subtotal</h6>
+            <p>Rs. 250,000.00</p>
+          </div>
+          <div class="flex justify-around">
+            <h6>Total</h6>
+            <p>Rs. 250,000.00</p>
+          </div>
+
+          <button
+            id="checkoutBtn"
+            class="large-btn xl:mx-[85px] mx-[35px] xl:px-[14px] px-[5px]"
+          >
+            Check Out
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
